@@ -12,6 +12,8 @@ exact layout proposal. The room changes only after the person accepts it.
 
 [Try the live HomeWheel demo](https://homewheel-webmcp.andreabalbo94.chatgpt.site)
 
+[Watch the 72-second narrated demo](https://youtu.be/gga0UbnX4PY)
+
 ![HomeWheel previewing a feedback-aware bedroom layout proposal](docs/homewheel-proposal.png)
 
 ## The idea

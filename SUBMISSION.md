@@ -170,6 +170,8 @@ room means in daily life, and receives a better revision.
 The final narrated demo is `media/HomeWheel-WebMCP-Demo.mp4`. Its companion
 caption file is `media/HomeWheel-WebMCP-Demo.srt`.
 
+Public video: https://youtu.be/gga0UbnX4PY
+
 ### 0:00–0:10 — The need
 
 Show the blocked bedroom route and introduce the shared live floor plan.
@@ -228,10 +230,10 @@ activity history, and reversible decision.
 
 ## Submission checklist
 
-- [ ] Public live application URL
-- [ ] Public source repository
+- [x] Public live application URL
+- [x] Public source repository
 - [x] Open-source license included
-- [ ] Public YouTube demo with audio, under three minutes
+- [x] Public YouTube demo with audio, under three minutes
 - [ ] English Devpost description
 - [x] Screenshots showing initial, proposal, feedback, revision, and accepted states
 - [ ] Test the public URL in a fresh browser session
