@@ -13,7 +13,7 @@ Enter these values manually in the existing Devpost draft.
 
 ## Media
 
-- Project thumbnail: `homewheel-devpost-thumbnail-600x600.png`
+- Project thumbnail: `homewheel-devpost-thumbnail-1200x800.png` (Devpost’s recommended 3:2 ratio)
 - Cover image: `homewheel-devpost-cover-1920x1080.png`
 - Gallery image 1: `homewheel-gallery-01.png`
 - Gallery image 2: `homewheel-gallery-02.png`

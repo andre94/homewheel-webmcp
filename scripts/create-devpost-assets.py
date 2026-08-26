@@ -252,6 +252,45 @@ def create_square_thumbnail() -> None:
     canvas.convert("RGB").save(OUTPUT / "homewheel-devpost-thumbnail-600x600.png")
 
 
+def create_devpost_thumbnail() -> None:
+    canvas = Image.new("RGBA", (1200, 800), TEAL)
+    draw = ImageDraw.Draw(canvas)
+
+    draw.ellipse((850, -260, 1450, 340), fill="#1E4A4E")
+    draw.ellipse((-250, 570, 290, 1110), fill="#1C5A56")
+    draw_logo(draw, 58, 54, 76)
+    draw.text((158, 62), "HomeWheel", font=font(47, True), fill=WHITE)
+    draw.text((60, 174), "Make room for", font=font(49, True), fill=WHITE)
+    draw.text((60, 238), "real movement", font=font(56, True), fill=AQUA)
+    multiline(
+        draw,
+        (64, 334),
+        "A wheelchair-aware room planner where the agent proposes and the person decides.",
+        font(25),
+        "#D7E7E4",
+        width=440,
+        spacing=8,
+    )
+
+    paste_card(
+        canvas,
+        MEDIA / "05-homewheel-revised-proposal.png",
+        (550, 122, 600, 408),
+        radius=28,
+        shadow=22,
+    )
+    draw.rounded_rectangle((650, 578, 1082, 656), radius=28, fill=PAPER)
+    draw.text((687, 601), "2 / 2 ROUTES CLEAR", font=font(24, True), fill=GREEN)
+    draw.text(
+        (62, 720),
+        "WebMCP accessibility planner · Independent personal project",
+        font=font(19),
+        fill="#D7E7E4",
+    )
+
+    canvas.convert("RGB").save(OUTPUT / "homewheel-devpost-thumbnail-1200x800.png")
+
+
 def create_youtube_thumbnail() -> None:
     canvas = Image.new("RGBA", (1280, 720), TEAL)
     draw = ImageDraw.Draw(canvas)
@@ -289,6 +328,7 @@ def create_youtube_thumbnail() -> None:
 def main() -> None:
     OUTPUT.mkdir(parents=True, exist_ok=True)
     create_square_thumbnail()
+    create_devpost_thumbnail()
     create_cover()
     create_youtube_thumbnail()
 
