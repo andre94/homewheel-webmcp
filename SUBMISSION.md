@@ -233,6 +233,6 @@ activity history, and reversible decision.
 - [x] Open-source license included
 - [ ] Public YouTube demo with audio, under three minutes
 - [ ] English Devpost description
-- [ ] Screenshots showing initial, proposal, and accepted states
+- [x] Screenshots showing initial, proposal, feedback, revision, and accepted states
 - [ ] Test the public URL in a fresh browser session
 - [ ] Confirm all eight WebMCP tools are discoverable on the public URL

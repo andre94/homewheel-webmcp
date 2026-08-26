@@ -3,6 +3,7 @@ node_modules
 out
 dist
 media/
+docs/devpost/*.zip
 .DS_Store
 *.log
 *.tsbuildinfo
