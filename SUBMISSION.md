@@ -236,5 +236,5 @@ activity history, and reversible decision.
 - [x] Public YouTube demo with audio, under three minutes
 - [ ] English Devpost description
 - [x] Screenshots showing initial, proposal, feedback, revision, and accepted states
-- [ ] Test the public URL in a fresh browser session
-- [ ] Confirm all eight WebMCP tools are discoverable on the public URL
+- [x] Test the public URL in a fresh browser session
+- [x] Confirm all eight WebMCP tools are discoverable on the public URL
